@@ -1,0 +1,8 @@
+[workspace]
+members = [
+    'node',
+    'pallets/kitty_nft',
+    'runtime',
+]
+[profile.release]
+panic = 'unwind'
